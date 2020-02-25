@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+#taiji {
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  margin-left: -100px;
+  transition: all 1s;
+}
+
+#taiji::before {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+#taiji::after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+@media (max-width: 500px) {
+  #html {
+    height: 50vh;
+    overflow: auto;
+  }
+
+  #taijiWrap {
+    height: 50vh;
+  }
+}
+
+
+/*# sourceMappingURL=/style.0e565bc9.css.map */
